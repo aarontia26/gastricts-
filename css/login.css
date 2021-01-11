@@ -46,7 +46,6 @@ body {
     background-color: #f1f1f1;
 }
 
-
 /*
     HEADER TOP SECTION
  */
@@ -215,94 +214,94 @@ span.shoping-cart {
     z-index: 9999999;
     color: #1abc9c;
 }
-hr{
-    border: none;
-    height: 3px;
-    background: #1abc9c;
-    width: 100px;
-    margin-bottom: 0;
-}
-hr.one{
-    border: none;
-    height: 3px;
-    background: #1abc9c;
-    width: 200px;
-}
-hr.two{
 
-    border: none;
-    height: 3px;
-    background: #1abc9c;
-    width: 300px;
+.image {
+    background-image: url(../images/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: center;
+    width: 50%;
+    height: 82vh;
 }
 
-.about-section{
-    background: url(../images/5.jpg) no-repeat left;
-    background-size: 60%;
-    background-color: #fff ;
-    overflow: hidden;
-}
-
-.inner-container{
-    width: 55%;
-    float: right;
-    background-color: #fdfdfd;
+.container_ {
+    position: absolute;
+    top: 20%;
+    left: 60%;
     padding: 50px;
-    margin: 20px 0;
-    color: black;
+    background-color: #ffffff;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
 }
 
-.inner-container h1{
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-weight: 900;
-
-}
-
-.text{
-    font-size: 13px;
-    color: #545454;
-    line-height: 30px;
-    text-align: justify;
-    margin-bottom: 40px;
-    font-family: Arial;
-}
-
-
-/*.social-media{
-
-    display: flex;
-    justify-content: space-around; ;
-    font-weight: 100;
-    
-}*/
-.social-media{
-    width: 100%;
-    color: #1abc9c;
+.form-title h1 {
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: -10px;
 }
-.social-media a{
-    text-decoration: none;
-}
-.social-media i{
-    height: 15px;
-    width: 15px;
-    margin: 20px 5px;
-    padding: 8px;
-    color: #1abc9c;
-    transition:0.3s;
-}
-.social-media:hover{
-    background: black;
-    opacity: 50%;
-}
-.btn a{
-    font-family: tahoma;
-    color: #1abc9c;
-  margin-left: 20px;
 
-    
+.first {
+    margin-bottom: 20px;
 }
+
+.second {
+    margin-bottom: 20px;
+}
+
+.data {
+    width: 100%;
+}
+
+.data input {
+    width: 100%;
+    height: 45px;
+    padding-left: 5px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.data input:focus {
+    border-color: #ffcc00;
+    outline: none;
+}
+
+.btn {
+    display: inline-block;
+    background: #1abc9c !important;
+    padding: 10px 40px;
+    border: none;
+    color: #fff !important;
+    margin-top: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.btn button:hover {
+    background-color: #ffff1a;
+}
+
+form .forgotpass {
+    margin-top: -15px;
+    font-size: 15px;
+}
+
+form .account {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+form a {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+form a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+    
 
 /*
     FOOTER SECTION
@@ -325,33 +324,8 @@ footer.footer p{
 footer.footer p a{
     color: #1abc9c
 }
-@media screen and (max-width:1200px){
-    .inner-container{
-        padding: 80px;
-    }
-}
-
-@media screen and (max-width:1000px){
-    .about-section{
-        background-size: 100%;
-        padding: 100px 40px;
-    }
-    .inner-container{
-        width: 100%;
-    }
-}
-
 @media (max-width: 767px){
 .header-section .navbar .container .navbar-header img {
     margin-left: 20px;
 }
-}
-
-@media screen and (max-width:600px){
-    .about-section{
-        padding: 0;
-    }
-    .inner-container{
-        padding: 60px;
-    }
 }
